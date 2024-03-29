@@ -43,7 +43,9 @@ for (int i = 1; i <=12; i++) {
         }
         // Exercise 10
         for (int i = 0; i <= 20; i = i + 2) {
-            System.out.println(i);
+            var times = 0;
+            times = times + i - (i / 2);
+            System.out.println("2 * " + times + " = " + i);
         }
     }
 }
